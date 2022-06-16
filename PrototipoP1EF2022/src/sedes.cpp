@@ -11,6 +11,7 @@
 
 using namespace std;
 
+
 sedes::sedes()
 {
     //ctor
@@ -182,7 +183,7 @@ void sedes::desplegar()
 	archivo.open("sede.dat",ios::binary|ios::in);
 	if(!archivo)
 	{
-		cout<<"\n\t\t\tNo hay información...";
+		cout<<"\n\t\t\tNo hay informaciï¿½n...";
 		archivo.close();
 	}
 	else
@@ -307,6 +308,7 @@ void sedes::borrar()
 }
 
 
+
 void sedes::informe()
 {
     system("cls");
@@ -319,7 +321,7 @@ void sedes::informe()
 	archivo.open("sede.dat",ios::binary|ios::in);
 	if(!archivo)
 	{
-		cout<<"\n\t\t\tNo hay información...";
+		cout<<"\n\t\t\tNo hay informaciï¿½n...";
 		archivo.close();
 	}
 	else
@@ -349,3 +351,4 @@ void sedes::informe()
         punto.informes();
     }
 }
+
