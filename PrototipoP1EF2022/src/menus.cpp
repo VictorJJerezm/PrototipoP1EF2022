@@ -3,6 +3,7 @@
 #include "carreras.h"
 #include "cursos.h"
 #include "aulas.h"
+#include "sedes.h"
 #include <iostream>
 #include <fstream>
 #include <iomanip>
@@ -88,6 +89,7 @@ void menus::catalogos(){
         carreras ingreso;
         cursos persona;
         aulas espacio;
+        sedes lugar;
 
         switch(choice)
         {
@@ -104,7 +106,7 @@ void menus::catalogos(){
 		espacio.menu();
 		break;
 	case 5:
-		//mar.menu();
+		lugar.menu();
 		break;
 	case 6:
 		menuGeneral();
