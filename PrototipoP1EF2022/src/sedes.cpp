@@ -11,6 +11,7 @@
 
 using namespace std;
 
+
 sedes::sedes()
 {
     //ctor
@@ -182,7 +183,7 @@ void sedes::desplegar()
 	archivo.open("sede.dat",ios::binary|ios::in);
 	if(!archivo)
 	{
-		cout<<"\n\t\t\tNo hay información...";
+		cout<<"\n\t\t\tNo hay informaciï¿½n...";
 		archivo.close();
 	}
 	else
@@ -305,3 +306,4 @@ void sedes::borrar()
 	}
 	cout<<"\n\nPresione cualquier tecla para regresar al menu anterior "<<endl;
 }
+
