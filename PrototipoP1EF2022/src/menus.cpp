@@ -1,6 +1,7 @@
 #include "menus.h"
 #include "Facultad.h"
 #include "carreras.h"
+#include "cursos.h"
 #include <iostream>
 #include <fstream>
 #include <iomanip>
@@ -84,6 +85,7 @@ void menus::catalogos(){
 
         Facultad entrada;
         carreras ingreso;
+        cursos persona;
 
         switch(choice)
         {
@@ -94,7 +96,7 @@ void menus::catalogos(){
 		ingreso.menu();
 		break;
 	case 3:
-		//coma.menu2();
+		persona.menu();
 		break;
 	case 4:
 		//punto.escribirOpcion();
