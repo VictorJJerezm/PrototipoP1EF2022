@@ -2,6 +2,7 @@
 #include <conio.h>
 #include <fstream>
 #include "login.h"
+#include "menus.h"
 
 using namespace std;
 
@@ -10,7 +11,7 @@ int main(int argc, char *argv[])
     menus menuG;
 
     bool accesoUsuarios;
-    ingreso usuarioRegistrado;
+    login usuarioRegistrado;
     accesoUsuarios=usuarioRegistrado.loginUsuarios();
         if (accesoUsuarios){menuG.menuGeneral();}
     system("cls");

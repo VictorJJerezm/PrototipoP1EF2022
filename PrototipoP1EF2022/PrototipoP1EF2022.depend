@@ -1,0 +1,25 @@
+# depslib dependency file v1.0
+1655400723 source:c:\users\vjere\proyectos\examen_final\prototipop1ef2022\prototipop1ef2022\src\login.cpp
+	"login.h"
+	<cstdlib>
+	<conio.h>
+	<iostream>
+
+1655400723 c:\users\vjere\proyectos\examen_final\prototipop1ef2022\prototipop1ef2022\include\login.h
+
+1655401238 source:c:\users\vjere\proyectos\examen_final\prototipop1ef2022\prototipop1ef2022\src\menus.cpp
+	"menus.h"
+	<iostream>
+	<fstream>
+	<iomanip>
+	<cstdlib>
+
+1655401765 c:\users\vjere\proyectos\examen_final\prototipop1ef2022\prototipop1ef2022\include\menus.h
+
+1655401275 source:c:\users\vjere\proyectos\examen_final\prototipop1ef2022\prototipop1ef2022\main.cpp
+	<iostream>
+	<conio.h>
+	<fstream>
+	"login.h"
+	"menus.h"
+
