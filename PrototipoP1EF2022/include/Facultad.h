@@ -15,6 +15,7 @@ class Facultad
         void buscar();
         void modificar();
         void borrar();
+        void informe();
 
     protected:
 

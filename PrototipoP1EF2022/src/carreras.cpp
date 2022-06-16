@@ -317,3 +317,47 @@ void carreras::borrar()
 	}
 	cout<<"\n\nPresione cualquier tecla para regresar al menu anterior "<<endl;
 }
+
+void carreras::informe()
+{
+    system("cls");
+    string id, nombre, idf, estatus;
+	fstream archivo;
+	int total=0;
+	cout << "\t\t\t *********************************************"<<endl;
+	cout << "\t\t\t                | Carreras |                  "<<endl;
+	cout << "\t\t\t *********************************************"<<endl;
+	archivo.open("carre.dat",ios::binary|ios::in);
+	if(!archivo)
+	{
+		cout<<"\n\t\t\tNo hay información...";
+		archivo.close();
+	}
+	else
+	{
+		archivo >> id >> nombre >> idf >> estatus;
+		while(!archivo.eof())
+		{
+			total++;
+			cout<<"\n\t\t\t ID de la Carrera: "<<id<<endl;
+			cout<<"\t\t\t Nombre de la Carrera: "<<nombre<<endl;
+			cout<<"\t\t\t ID de la Facultad: "<<idf<<endl;
+			cout<<"\t\t\t Estatus de la Carrera: "<<estatus<<endl;
+
+			archivo >> id >> nombre >> idf >> estatus;
+		}
+		if(total==0)
+		{
+			cout<<"\n\t\t\tNo hay informacion...";
+		}
+	}archivo.close();
+
+	menus punto;
+	char ctrl;
+	cout<<"\n\t\t\t Ingresa cualquier caracter para continuar: ";
+	cin >>ctrl;
+	if(ctrl = 1)
+    {
+        punto.informes();
+    }
+}

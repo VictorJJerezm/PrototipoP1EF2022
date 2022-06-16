@@ -15,6 +15,7 @@ class sedes
         void buscar();
         void modificar();
         void borrar();
+        void informe();
 
     protected:
 
