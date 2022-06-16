@@ -305,3 +305,47 @@ void aulas::borrar()
 	}
 	cout<<"\n\nPresione cualquier tecla para regresar al menu anterior "<<endl;
 }
+
+
+void aulas::informe()
+{
+    system("cls");
+    string id, nombre, estatus;
+	fstream archivo;
+	int total=0;
+	cout << "\t\t\t *********************************************"<<endl;
+	cout << "\t\t\t                  | Aulas |                  "<<endl;
+	cout << "\t\t\t *********************************************"<<endl;
+	archivo.open("aula.dat",ios::binary|ios::in);
+	if(!archivo)
+	{
+		cout<<"\n\t\t\tNo hay información...";
+		archivo.close();
+	}
+	else
+	{
+		archivo >> id >> nombre >> estatus;
+		while(!archivo.eof())
+		{
+			total++;
+			cout<<"\n\t\t\t ID del Aula: "<<id<<endl;
+			cout<<"\t\t\t Nombre del Aula: "<<nombre<<endl;
+			cout<<"\t\t\t Estatus del Aula: "<<estatus<<endl;
+
+			archivo >> id >> nombre >> estatus;
+		}
+		if(total==0)
+		{
+			cout<<"\n\t\t\tNo hay informacion...";
+		}
+	}archivo.close();
+
+	menus punto;
+	char ctrl;
+	cout<<"\n\t\t\t Ingresa cualquier caracter para continuar: ";
+	cin >>ctrl;
+	if(ctrl = 1)
+    {
+        punto.informes();
+    }
+}

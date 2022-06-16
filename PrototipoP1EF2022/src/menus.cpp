@@ -49,7 +49,7 @@ void menus::menuGeneral(){
 		}while(x=='y'||x=='Y');*/
 		break;
 	case 2:
-		//genera.menuprincipalgeneracionnomina();
+		informes();
 		break;
     case 3:
 	    exit(0);
@@ -76,7 +76,7 @@ void menus::catalogos(){
         cout << "\t\t\t  2. Catalogo de Carreras"<<endl;
         cout << "\t\t\t  3. Catalogo de Cursos"<<endl;
         cout << "\t\t\t  4. Catalogo de Aulas"<<endl;
-        cout << "\t\t\t  5. Catalodo de Sedes"<<endl;
+        cout << "\t\t\t  5. Catalogo de Sedes"<<endl;
         cout << "\t\t\t  6. Salir"<<endl;
 
         cout << "\t\t\t *********************************************"<<endl;
@@ -107,6 +107,63 @@ void menus::catalogos(){
 		break;
 	case 5:
 		lugar.menu();
+		break;
+	case 6:
+		menuGeneral();
+	default:
+		cout << "\t\t\t Opcion invalida...Por favor prueba otra vez..";
+	}
+    }while(choice!= 7);
+
+}
+
+void menus::informes(){
+    int choice;
+    char s;
+    do
+    {
+
+
+    system ("cls");
+
+        cout << "\t\t\t *********************************************"<<endl;
+        cout << "\t\t\t                 | Informes |"<<endl;
+        cout << "\t\t\t *********************************************"<<endl;
+        cout << "\t\t\t  1. Informes de Facultad"<<endl;
+        cout << "\t\t\t  2. Informes de Carreras"<<endl;
+        cout << "\t\t\t  3. Informes de Cursos"<<endl;
+        cout << "\t\t\t  4. Informes de Aulas"<<endl;
+        cout << "\t\t\t  5. Informes de Sedes"<<endl;
+        cout << "\t\t\t  6. Salir"<<endl;
+
+        cout << "\t\t\t *********************************************"<<endl;
+        cout << "\t\t\t Opcion a escoger : [1/2/3/4/5/6]"<<endl;
+        cout << "\t\t\t *********************************************"<<endl;
+        cout << "\t\t\t Selecciona tu opcion: ";
+        cin>>choice;
+
+        Facultad entrada;
+        carreras ingreso;
+        cursos persona;
+        aulas espacio;
+        sedes lugar;
+
+        switch(choice)
+        {
+    case 1:
+    	entrada.informe();
+		break;
+    case 2:
+		ingreso.informe();
+		break;
+	case 3:
+		persona.informe();
+		break;
+	case 4:
+		espacio.informe();
+		break;
+	case 5:
+		lugar.informe();
 		break;
 	case 6:
 		menuGeneral();

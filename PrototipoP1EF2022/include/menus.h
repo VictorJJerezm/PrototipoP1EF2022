@@ -10,6 +10,7 @@ class menus
         virtual ~menus();
         void menuGeneral();
         void catalogos();
+        void informes();
 
     protected:
 

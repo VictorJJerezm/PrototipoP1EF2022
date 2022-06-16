@@ -1,33 +1,34 @@
 # depslib dependency file v1.0
-1655408000 source:c:\users\vjere\proyectos\examen_final\prototipop1ef2022\prototipop1ef2022\src\login.cpp
+1655409363 source:c:\users\vjere\proyectos\examen_final\prototipop1ef2022\prototipop1ef2022\src\login.cpp
 	"login.h"
 	<cstdlib>
 	<conio.h>
 	<iostream>
 
-1655408000 c:\users\vjere\proyectos\examen_final\prototipop1ef2022\prototipop1ef2022\include\login.h
+1655409363 c:\users\vjere\proyectos\examen_final\prototipop1ef2022\prototipop1ef2022\include\login.h
 
-1655408000 source:c:\users\vjere\proyectos\examen_final\prototipop1ef2022\prototipop1ef2022\src\menus.cpp
+1655409965 source:c:\users\vjere\proyectos\examen_final\prototipop1ef2022\prototipop1ef2022\src\menus.cpp
 	"menus.h"
 	"Facultad.h"
 	"carreras.h"
 	"cursos.h"
 	"aulas.h"
+	"sedes.h"
 	<iostream>
 	<fstream>
 	<iomanip>
 	<cstdlib>
 
-1655408000 c:\users\vjere\proyectos\examen_final\prototipop1ef2022\prototipop1ef2022\include\menus.h
+1655409645 c:\users\vjere\proyectos\examen_final\prototipop1ef2022\prototipop1ef2022\include\menus.h
 
-1655408000 source:c:\users\vjere\proyectos\examen_final\prototipop1ef2022\prototipop1ef2022\main.cpp
+1655409363 source:c:\users\vjere\proyectos\examen_final\prototipop1ef2022\prototipop1ef2022\main.cpp
 	<iostream>
 	<conio.h>
 	<fstream>
 	"login.h"
 	"menus.h"
 
-1655408000 source:c:\users\vjere\proyectos\examen_final\prototipop1ef2022\prototipop1ef2022\src\facultad.cpp
+1655410128 source:c:\users\vjere\proyectos\examen_final\prototipop1ef2022\prototipop1ef2022\src\facultad.cpp
 	"Facultad.h"
 	"menus.h"
 	<iostream>
@@ -39,13 +40,13 @@
 	<conio.h>
 	<iomanip>
 
-1655408000 c:\users\vjere\proyectos\examen_final\prototipop1ef2022\prototipop1ef2022\include\facultad.h
+1655409965 c:\users\vjere\proyectos\examen_final\prototipop1ef2022\prototipop1ef2022\include\facultad.h
 	<iostream>
 
-1655408000 c:\users\vjere\proyectos\examen_final\prototipop1ef2022\prototipop1ef2022\include\carreras.h
+1655410128 c:\users\vjere\proyectos\examen_final\prototipop1ef2022\prototipop1ef2022\include\carreras.h
 	<iostream>
 
-1655408000 source:c:\users\vjere\proyectos\examen_final\prototipop1ef2022\prototipop1ef2022\src\carreras.cpp
+1655410128 source:c:\users\vjere\proyectos\examen_final\prototipop1ef2022\prototipop1ef2022\src\carreras.cpp
 	"carreras.h"
 	"menus.h"
 	<iostream>
@@ -57,7 +58,7 @@
 	<conio.h>
 	<iomanip>
 
-1655408000 source:c:\users\vjere\proyectos\examen_final\prototipop1ef2022\prototipop1ef2022\src\cursos.cpp
+1655409363 source:c:\users\vjere\proyectos\examen_final\prototipop1ef2022\prototipop1ef2022\src\cursos.cpp
 	"cursos.h"
 	"menus.h"
 	<iostream>
@@ -69,10 +70,10 @@
 	<conio.h>
 	<iomanip>
 
-1655408000 c:\users\vjere\proyectos\examen_final\prototipop1ef2022\prototipop1ef2022\include\cursos.h
+1655409363 c:\users\vjere\proyectos\examen_final\prototipop1ef2022\prototipop1ef2022\include\cursos.h
 	<iostream>
 
-1655408000 source:c:\users\vjere\proyectos\examen_final\prototipop1ef2022\prototipop1ef2022\src\aulas.cpp
+1655409363 source:c:\users\vjere\proyectos\examen_final\prototipop1ef2022\prototipop1ef2022\src\aulas.cpp
 	"aulas.h"
 	"menus.h"
 	<iostream>
@@ -84,6 +85,21 @@
 	<conio.h>
 	<iomanip>
 
-1655408000 c:\users\vjere\proyectos\examen_final\prototipop1ef2022\prototipop1ef2022\include\aulas.h
+1655409363 c:\users\vjere\proyectos\examen_final\prototipop1ef2022\prototipop1ef2022\include\aulas.h
+	<iostream>
+
+1655409363 source:c:\users\vjere\proyectos\examen_final\prototipop1ef2022\prototipop1ef2022\src\sedes.cpp
+	"sedes.h"
+	"menus.h"
+	<iostream>
+	<istream>
+	<fstream>
+	<stdlib.h>
+	<string.h>
+	<cstdlib>
+	<conio.h>
+	<iomanip>
+
+1655409363 c:\users\vjere\proyectos\examen_final\prototipop1ef2022\prototipop1ef2022\include\sedes.h
 	<iostream>
 

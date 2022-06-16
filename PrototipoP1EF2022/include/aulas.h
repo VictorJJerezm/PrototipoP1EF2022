@@ -15,6 +15,7 @@ class aulas
         void buscar();
         void modificar();
         void borrar();
+        void informe();
 
     protected:
 
