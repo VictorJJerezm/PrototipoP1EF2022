@@ -35,16 +35,20 @@
 			<Add option="-fexceptions" />
 		</Compiler>
 		<Unit filename="include/Facultad.h" />
+		<Unit filename="include/aulas.h" />
 		<Unit filename="include/carreras.h" />
 		<Unit filename="include/cursos.h" />
 		<Unit filename="include/login.h" />
 		<Unit filename="include/menus.h" />
+		<Unit filename="include/sedes.h" />
 		<Unit filename="main.cpp" />
 		<Unit filename="src/Facultad.cpp" />
+		<Unit filename="src/aulas.cpp" />
 		<Unit filename="src/carreras.cpp" />
 		<Unit filename="src/cursos.cpp" />
 		<Unit filename="src/login.cpp" />
 		<Unit filename="src/menus.cpp" />
+		<Unit filename="src/sedes.cpp" />
 		<Extensions>
 			<lib_finder disable_auto="1" />
 		</Extensions>
