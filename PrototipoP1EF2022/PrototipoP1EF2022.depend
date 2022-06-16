@@ -1,30 +1,31 @@
 # depslib dependency file v1.0
-1655402315 source:c:\users\vjere\proyectos\examen_final\prototipop1ef2022\prototipop1ef2022\src\login.cpp
+1655404580 source:c:\users\vjere\proyectos\examen_final\prototipop1ef2022\prototipop1ef2022\src\login.cpp
 	"login.h"
 	<cstdlib>
 	<conio.h>
 	<iostream>
 
-1655402315 c:\users\vjere\proyectos\examen_final\prototipop1ef2022\prototipop1ef2022\include\login.h
+1655404580 c:\users\vjere\proyectos\examen_final\prototipop1ef2022\prototipop1ef2022\include\login.h
 
-1655404093 source:c:\users\vjere\proyectos\examen_final\prototipop1ef2022\prototipop1ef2022\src\menus.cpp
+1655405666 source:c:\users\vjere\proyectos\examen_final\prototipop1ef2022\prototipop1ef2022\src\menus.cpp
 	"menus.h"
 	"Facultad.h"
+	"carreras.h"
 	<iostream>
 	<fstream>
 	<iomanip>
 	<cstdlib>
 
-1655402315 c:\users\vjere\proyectos\examen_final\prototipop1ef2022\prototipop1ef2022\include\menus.h
+1655404580 c:\users\vjere\proyectos\examen_final\prototipop1ef2022\prototipop1ef2022\include\menus.h
 
-1655402315 source:c:\users\vjere\proyectos\examen_final\prototipop1ef2022\prototipop1ef2022\main.cpp
+1655404580 source:c:\users\vjere\proyectos\examen_final\prototipop1ef2022\prototipop1ef2022\main.cpp
 	<iostream>
 	<conio.h>
 	<fstream>
 	"login.h"
 	"menus.h"
 
-1655404201 source:c:\users\vjere\proyectos\examen_final\prototipop1ef2022\prototipop1ef2022\src\facultad.cpp
+1655404580 source:c:\users\vjere\proyectos\examen_final\prototipop1ef2022\prototipop1ef2022\src\facultad.cpp
 	"Facultad.h"
 	"menus.h"
 	<iostream>
@@ -36,6 +37,9 @@
 	<conio.h>
 	<iomanip>
 
-1655403992 c:\users\vjere\proyectos\examen_final\prototipop1ef2022\prototipop1ef2022\include\facultad.h
+1655404580 c:\users\vjere\proyectos\examen_final\prototipop1ef2022\prototipop1ef2022\include\facultad.h
+	<iostream>
+
+1655405666 c:\users\vjere\proyectos\examen_final\prototipop1ef2022\prototipop1ef2022\include\carreras.h
 	<iostream>
 
