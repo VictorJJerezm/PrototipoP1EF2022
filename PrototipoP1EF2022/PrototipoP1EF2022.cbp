@@ -34,9 +34,11 @@
 			<Add option="-Wall" />
 			<Add option="-fexceptions" />
 		</Compiler>
+		<Unit filename="include/Facultad.h" />
 		<Unit filename="include/login.h" />
 		<Unit filename="include/menus.h" />
 		<Unit filename="main.cpp" />
+		<Unit filename="src/Facultad.cpp" />
 		<Unit filename="src/login.cpp" />
 		<Unit filename="src/menus.cpp" />
 		<Extensions>

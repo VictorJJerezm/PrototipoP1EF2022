@@ -1,4 +1,5 @@
 #include "menus.h"
+#include "Facultad.h"
 #include <iostream>
 #include <fstream>
 #include <iomanip>
@@ -80,10 +81,12 @@ void menus::catalogos(){
         cout << "\t\t\t Selecciona tu opcion: ";
         cin>>choice;
 
+        Facultad entrada;
+
         switch(choice)
         {
     case 1:
-    	//gomu.menu();
+    	entrada.menu();
 		break;
     case 2:
 		//po.menu();
